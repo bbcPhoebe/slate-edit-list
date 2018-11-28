@@ -1,14 +1,3 @@
 {
-  "presets": ["env", "flow", "react", "stage-0"],
-  "plugins": [
-    "transform-runtime",
-    [
-      "module-resolver",
-      {
-        "alias": {
-          "h": "./tests/hyperscript"
-        }
-      }
-    ]
-  ]
+  "presets": ["env", "react", "stage-0"]
 }
